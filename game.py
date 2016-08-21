@@ -52,16 +52,47 @@ def house():
 					if answer_5 == "7-11":
 							
 						print ("As you enter you here a scream, do you investigate or ignore it")
+						
+						
+						answer_6=input("investigate or ignore")
+						
+						if answer_6 == "investigate"
 							
+							("You are a good citizen and decide to investigate, you walk towards the source of where the sound came from... press enter")
+							
+							input()
+							
+							if person == 'alive':
+							
+								print ("You see a woman on the floor trying to get away from the zombie that is almost in arm's reach of the person and slowly walking towards her... press enter")
+								input()
+								print ("You kick the zombie and it falls to the side, and you get the zombie's attention as the zombie is about to attack you. You hear gun shots and you see te zombie lying on the floor... press enter")
+								input()
+								print ("You see a muscular man walking towards the woman with a gun and helps her up, the woman thanks you and explains that she is the mayor's wife and the person who killed the zombie was her bodyguard... press enter")
+								input() 
+								print ("She offers to let you go with her on a helicopter that is coming because her husband is at the hospital so there is a empty seat.")
+								print ("Do you trust her and accept her offer or do you decline?")
+								answer_7=input("accept or decline")
+								if answer_7 == "accept":
+									print ("You decide that it would be bests to trust them and wait with them, luckily the woman was telling the trust and you get to safety on the helicopter.")
+									time.sleep(1)  
+								    print("Nice Job, you got a good ending.")
+							
+							if person == 'dead' :
+								print ("you see a zombie finishing eating a woman, because your paralyzed by fear you don't ove at all and the zombie dashes towards you at a fast pace because it just finished a meal... press enter ")
+								input()
+								print ("At the last second you regain your sense and try escaping but it was already to late and you end up with the same fate as the woman, you regret your decision of investigating and go into eternal sleep")
 					elif answer_5 == "hospital":
 								
-							print ("you walk to the hospital, when you go inside you noticed that all the useful things are already taken but keep on going hoping to find something ")
+						print ("you walk to the hospital, when you go inside you noticed that all the useful things are already taken but keep on going hoping to find something ")
 								
-							print ("as you keep on going you hear growling and see a zombie ahead, do you try wrestling with it or run past it")
+						print ("as you keep on going you hear growling and see a zombie ahead, do you try wrestling with it or run past it")
 								
-							answer_6=input("wrestle or run")
+						answer_6=input("wrestle or run")
 							
-							if 
+						if answer_6 == 'wrestle': 
+						
+							print ("I'm pretty sure wrestling with a zombie is a very bad idea, so why did you do it? You die from stupidity and by getting ripped apart")
 						
 						   
 
@@ -123,3 +154,17 @@ def house():
 
 
 house()
+
+while True:
+    # Randomly generate the game variables
+    if random.randint(1,2) == 1:
+        person = 'alive'
+    else:
+        person = 'dead'
+
+    if random.randint(1,2) == 1:
+        you = 'immune'
+    else:
+        you = 'infected'
+
+    
