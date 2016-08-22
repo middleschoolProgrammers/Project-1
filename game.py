@@ -56,7 +56,7 @@ def house():
 						
 						answer_6=input("investigate or ignore")
 						
-						if answer_6 == "investigate"
+						if answer_6 == "investigate":
 							
 							("You are a good citizen and decide to investigate, you walk towards the source of where the sound came from... press enter")
 							
